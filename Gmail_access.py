@@ -100,8 +100,8 @@ def convert_to_df(emails_data):
 
 # Main function to perform the email extraction
 def main():
-    username = "vinit2004solanki@gmail.com"
-    app_password = "flwp zrcy jmrc trxq"  # Use an app password if 2FA is enabled
+    username = "Enter your email"
+    app_password = "Enter your password"  # Use an app password if 2FA is enabled
 
     # Load the model and vectorizer
     with open('models/nb_model.pkl', 'rb') as model_file:
